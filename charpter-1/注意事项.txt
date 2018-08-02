@@ -1,9 +1,12 @@
-要编译1.c项目必须要有apue.h头文件放在项目文件目录下
-这时候编译1.c会报出以下错误
+1-3:
+	要编译1.c项目必须要有apue.h头文件放在项目文件目录下
+	这时候编译1.c会报出以下错误
 
-/tmp/cciUZ4Ir.o：在函数‘main’中： 
-ls1.c:(.text+0x20)：对‘err_quit’未定义的引用 
-ls1.c:(.text+0x5b)：对‘err_sys’未定义的引用
+	/tmp/cciUZ4Ir.o：在函数‘main’中： 
+	ls1.c:(.text+0x20)：对‘err_quit’未定义的引用 
+	ls1.c:(.text+0x5b)：对‘err_sys’未定义的引用
 
-这里面是缺少了error.c文件
-所以也要将apue.3e/lib/error.c文件放到项目目录下(apue.3e这个是作者的项目文件目录)
+	这里面是缺少了error.c文件
+	所以也要将apue.3e/lib/error.c文件放到项目目录下(apue.3e这个是作者的项目文件目录)
+
+
