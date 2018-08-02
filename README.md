@@ -7,3 +7,5 @@ UNIX环境高级编程（第三版源码）
 <http://www.apuebook.com/>
 
 进入网站后，选择书的版本，然后点击Source Code进行下载
+
+项目的代码运行在Linux
