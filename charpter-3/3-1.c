@@ -9,3 +9,5 @@ main(void)
 				printf("seek OK\n");
 		exit(0);
 }
+
+
